@@ -1,5 +1,4 @@
 using System.Diagnostics.Contracts;
-
 namespace ApiDataProcessor.Models;
 
 public class WeatherData

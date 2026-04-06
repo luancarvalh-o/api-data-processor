@@ -3,3 +3,13 @@ C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDa
 C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.AssemblyInfo.cs
 C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.csproj.CoreCompileInputs.cache
 C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.sourcelink.json
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\bin\Debug\net9.0\ApiDataProcessor.exe
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\bin\Debug\net9.0\ApiDataProcessor.deps.json
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\bin\Debug\net9.0\ApiDataProcessor.runtimeconfig.json
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\bin\Debug\net9.0\ApiDataProcessor.dll
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\bin\Debug\net9.0\ApiDataProcessor.pdb
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.dll
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\refint\ApiDataProcessor.dll
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.pdb
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.genruntimeconfig.cache
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ref\ApiDataProcessor.dll
