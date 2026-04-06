@@ -1,0 +1,5 @@
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.AssemblyInfoInputs.cache
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.AssemblyInfo.cs
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Documents\ApiDataProcessor\ApiDataProcessor\obj\Debug\net9.0\ApiDataProcessor.sourcelink.json

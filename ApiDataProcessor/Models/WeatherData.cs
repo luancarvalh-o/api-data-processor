@@ -1,6 +1,6 @@
 using System.Diagnostics.Contracts;
 
-namespace ApiDataProcesssor.Models;
+namespace ApiDataProcessor.Models;
 
 public class WeatherData
 {
