@@ -14,7 +14,7 @@ class Program
         var UserService = new UserService();
 
 
-        string apiKey = "ce31191732df8be7536aa3650e7abca5";
+        string apiKey = "";
         Console.Write($"Informe a cidade: ");
         string city = Console.ReadLine();
 
