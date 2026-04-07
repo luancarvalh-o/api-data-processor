@@ -9,8 +9,9 @@ class Program
     {
         var weatherService = new WeatherService();
 
-        string apiKey = "SUA_CHAVE_AQUI";
-        string city = "Sao Paulo";
+        string apiKey = "ce31191732df8be7536aa3650e7abca5";
+        Console.Write($"Informe a cidade: ");
+        string city = Console.ReadLine();
 
         try
         {
@@ -21,10 +22,14 @@ class Program
             Console.WriteLine($"Temperatura: {weather.Temperature}°C");
             Console.WriteLine($"Descrição: {weather.Description}");
             Console.WriteLine($"Umidade: {weather.Humidity}%");
+            Console.WriteLine();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Erro: {ex.Message}");
         }
+
+
+
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiDataProcessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fda204e2bc4efa3de7a05d90a7581426f1544746")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50eef6daeef37252d4475f9ce6b03f26f0f7fefa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiDataProcessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiDataProcessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
