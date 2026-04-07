@@ -9,6 +9,7 @@ class Program
     {
         var weatherService = new WeatherService();
         var CurrencyService = new CurrencyService();
+        var UserService = new UserService();
 
 
         string apiKey = "ce31191732df8be7536aa3650e7abca5";
@@ -38,7 +39,7 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine("=== DADOS DO CLIMA ===");
-            Console.WriteLine($"Erro ao buscar clima: {ex.Message}");
+            Console.WriteLine($"{ex.Message}");
         }
 
         try
@@ -52,7 +53,27 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine("\n=== COTAÇÃO ===");
-            Console.WriteLine($"Erro ao buscar taxa de câmbio: {ex.Message}\n");
+            Console.WriteLine($"{ex.Message}\n");
+        }
+
+        try
+        {
+            List<UserData> users = await UserService.GetUsersAsync();
+
+            Console.WriteLine("=== USUÁRIOS ===");
+
+            foreach (var user in users)
+            {
+                Console.WriteLine($"Nome : {user.Name}");
+                Console.WriteLine($"Email : {user.Email}");
+                Console.WriteLine($"Phone : {user.Phone}");
+                Console.WriteLine($"City : {user.City}\n");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("\n=== USUÁRIOS ===");
+            Console.WriteLine($"{ex.Message}\n");
         }
     }
 }
