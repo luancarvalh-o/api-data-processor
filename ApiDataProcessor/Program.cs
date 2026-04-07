@@ -8,10 +8,20 @@ class Program
     static async Task Main(string[] args)
     {
         var weatherService = new WeatherService();
+        var CurrencyService = new CurrencyService();
+
 
         string apiKey = "ce31191732df8be7536aa3650e7abca5";
         Console.Write($"Informe a cidade: ");
         string city = Console.ReadLine();
+
+        Console.Write($"Informe a moeda base para câmbio: ");
+        string userBase = Console.ReadLine();
+
+        Console.Write($"Informe a moeda destino para câmbio: ");
+        string userDestination = Console.ReadLine();
+
+
 
         try
         {
@@ -23,6 +33,14 @@ class Program
             Console.WriteLine($"Descrição: {weather.Description}");
             Console.WriteLine($"Umidade: {weather.Humidity}%");
             Console.WriteLine();
+
+            CurrencyData currency = await CurrencyService.GetExchangeRateAsync(userDestination, userBase);
+            Console.WriteLine("=== COTAÇÃO ===");
+            Console.WriteLine($"Moeda base: {currency.BaseCurrency}");
+            Console.WriteLine($"Moeda destino: {currency.TargetCurrency}");
+            Console.WriteLine($"Taxa: {currency.ExchangeRate:F2}");
+
+
         }
         catch (Exception ex)
         {
