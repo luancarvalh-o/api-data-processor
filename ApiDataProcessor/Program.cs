@@ -3,6 +3,8 @@ using ApiDataProcessor.Models;
 
 namespace ApiDataProcessor;
 
+//ESSE CÓDIGO FOI SOMENTE UM TREINAMENTO PARA PODER EVOLUIR O ENTENDIMENTO NAS CONEXÕES COM DIFERENTES APIs.
+
 class Program
 {
     static async Task Main(string[] args)
